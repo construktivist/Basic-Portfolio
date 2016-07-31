@@ -1,0 +1,121 @@
+body{
+	: #777777;
+	font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+div{
+	margin:auto;
+	padding: 20px 20px 0 20px;
+	overflow: auto;
+}
+
+section{
+	background-color: #ffffff;
+	margin:auto;
+	width:960px;
+}
+
+h1{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:#4aaaa5;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+h2{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-weight: bold;
+	text-align:center;
+}
+
+hr{
+	border-height: 10px;
+	border-color: gray;
+}
+
+ul{
+	position: absolute;
+	bottom:0;
+	right: 0;
+	height: 35px;
+}
+
+li{
+	display:inline;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+img{
+	float:left;
+	margin-right: 20px;
+}
+
+p{
+
+	line-height: 35px
+}
+
+.head-container{
+	border-bottom: 5px solid #cccccc;
+}
+
+
+.header{
+	height: 65px;
+	position: relative;
+}
+
+.header h1{
+	float: left;
+	padding:20px;
+	background-color: #4aaaa5;
+	width: auto;
+	color:white;
+	font-weight: bold;
+}
+
+.main-container{
+	background-image: url('assets/images/dark_embroidery.png');
+	border-bottom: 3px solid #dddddd;
+	min-height: 300px;
+}
+
+.content{
+	width:650px;
+	float:left;
+	padding: 7px;
+	margin-bottom: 20px;
+}
+
+.sidebar{
+	width: 270px;
+	float:right;
+	padding: 7px;
+	min-height: 100px;
+
+}
+
+.sidebar hr{
+	border-height: 2px;
+	border-color: lightgray;
+}
+
+.sidebar img{
+	position:relative;
+	left: 40px;
+}
+
+.footer{
+	position: relative;
+	bottom:0;
+	background-color: #666666;
+}
+
+.footer p{
+	text-align: center;
+	color: white;
+	font-size: 12px;
+}
+
