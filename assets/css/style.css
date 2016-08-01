@@ -30,21 +30,9 @@ h2{
 }
 
 hr{
+	margin-top: 35px;
 	border-height: 10px;
 	border-color: gray;
-}
-
-ul{
-	position: absolute;
-	bottom:0;
-	right: 0;
-	height: 35px;
-}
-
-li{
-	display:inline;
-	margin-right: 10px;
-	margin-left: 10px;
 }
 
 img{
@@ -55,6 +43,28 @@ img{
 p{
 
 	line-height: 35px
+}
+
+form{
+	line-height: 35px;
+}
+
+
+input{
+	width: 620px;
+	height: 20px;
+	padding: 5px;
+	color:lightgray;
+}
+
+textarea{
+	width: 620px;
+	height: 200px;
+}
+
+a{
+	margin:15px;
+
 }
 
 .head-container{
@@ -76,8 +86,17 @@ p{
 	font-weight: bold;
 }
 
+.nav{
+	position: absolute;
+	bottom:0;
+	right:0;
+	width:270px;
+	padding:20px 0px;
+}
+
 .main-container{
-	background-image: url('assets/images/dark_embroidery.png');
+	background-image: url("assets/images/footer_lodyas.jpg");
+	background-repeat: repeat;
 	border-bottom: 3px solid #dddddd;
 	min-height: 300px;
 }
@@ -108,14 +127,25 @@ p{
 }
 
 .footer{
-	position: relative;
+	position: absolute;
 	bottom:0;
 	background-color: #666666;
+	margin:auto;
 }
 
 .footer p{
 	text-align: center;
-	color: white;
+	color: #ffffff;
 	font-size: 12px;
+}
+
+.submit{
+	width:auto;
+	height:auto;
+	padding:10px 35px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	border: none;
+	font-size: 18px;
 }
 
