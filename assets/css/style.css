@@ -42,10 +42,6 @@ img{
 	margin: 0px;
 }
 
-p{
-	line-height: 35px;
-}
-
 form{
 	line-height: 35px;
 }
@@ -61,6 +57,10 @@ input{
 textarea{
 	width: 620px;
 	height: 200px;
+}
+
+p{
+	line-height: 35px;
 }
 
 .header a{
@@ -98,8 +98,9 @@ textarea{
 .main-container{
 	background-image: url("../../assets/images/footer_lodyas.jpg");
 	background-repeat: repeat;
-	border-bottom: 3px solid #dddddd;
+	border-bottom: 10px solid #dddddd;
 	padding-top: 20px;
+	position: relative;
 }
 
 .content{
@@ -136,6 +137,33 @@ textarea{
 	color: #ffffff;
 	border: none;
 	font-size: 18px;
+}
+
+.pictures{
+	float:left;
+	margin: 10px;
+	position:relative;
+}
+
+.pictures-right{
+	float: right;
+	margin: 10px;
+	position:relative;
+}
+
+.title-wrap{
+	width: 300px;
+	height: 50px;
+	position: absolute;
+	bottom: 15px;
+	z-index: 1;
+	background-color: #4aaaa5;
+}
+
+.title-wrap h1{
+	color:#ffffff;
+	margin: 12px 12px;
+	text-align: center;
 }
 
 .footer{
