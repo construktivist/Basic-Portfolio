@@ -37,9 +37,8 @@ hr{
 	border-color: gray;
 }
 
-img{
-	float:left;
-	margin-right: 20px;
+a{
+	text-decoration:none;
 }
 
 p{
@@ -125,21 +124,8 @@ textarea{
 
 .sidebar img{
 	position:relative;
-	left: 40px;
-}
-
-.footer{
-	position: absolute;
-	bottom:0;
-	background-color: #666666;
-	margin:auto;
-}
-
-.footer p{
-	text-align: center;
-	color: #ffffff;
-	font-size: 12px;
-	width: 100%;
+	margin: 0px 18px;
+	left: 9px;
 }
 
 .submit{
@@ -151,4 +137,19 @@ textarea{
 	border: none;
 	font-size: 18px;
 }
+
+.footer{
+	position: absolute;
+	bottom:0;
+	background-color: #666666;
+}
+
+.footer p{
+	text-align: center;
+	color: #ffffff;
+	font-size: 12px;
+	width: 100%;
+}
+
+
 
